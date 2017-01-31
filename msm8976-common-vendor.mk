@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/lenovo/msm8976-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lenovo/msm8976-common/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/lenovo/msm8976-common/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/lenovo/msm8976-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -28,6 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lenovo/msm8976-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lenovo/msm8976-common/proprietary/bin/tftp_server:system/bin/tftp_server \
+    vendor/lenovo/msm8976-common/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/lenovo/msm8976-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/lenovo/msm8976-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/lenovo/msm8976-common/proprietary/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Bluetooth_cal.acdb \
@@ -108,6 +110,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/lenovo/msm8976-common/proprietary/lib64/hw/sensors.msm8952.so:system/lib64/hw/sensors.msm8952.so \
     vendor/lenovo/msm8976-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
+    vendor/lenovo/msm8976-common/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
+    vendor/lenovo/msm8976-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/lenovo/msm8976-common/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
     vendor/lenovo/msm8976-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lenovo/msm8976-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -203,6 +207,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
+    vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
@@ -450,6 +455,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
+    vendor/lenovo/msm8976-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
