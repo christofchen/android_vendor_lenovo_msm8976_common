@@ -28,7 +28,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/lenovo/msm8976-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lenovo/msm8976-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/lenovo/msm8976-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lenovo/msm8976-common/proprietary/bin/tftp_server:system/bin/tftp_server \
+    vendor/lenovo/msm8976-common/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/lenovo/msm8976-common/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/lenovo/msm8976-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/lenovo/msm8976-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
@@ -69,6 +71,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/lenovo/msm8976-common/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/lenovo/msm8976-common/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
+    vendor/lenovo/msm8976-common/proprietary/etc/firmware/bdwlan30.bin:system/etc/firmware/bdwlan30.bin \
+    vendor/lenovo/msm8976-common/proprietary/etc/firmware/bdwlan30_R01.bin:system/etc/firmware/bdwlan30_R01.bin \
+    vendor/lenovo/msm8976-common/proprietary/etc/firmware/btfw32.tlv:system/etc/firmware/btfw32.tlv \
+    vendor/lenovo/msm8976-common/proprietary/etc/firmware/btnv32.bin:system/etc/firmware/btnv32.bin \
     vendor/lenovo/msm8976-common/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/lenovo/msm8976-common/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/lenovo/msm8976-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -106,22 +112,41 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/lenovo/msm8976-common/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/lenovo/msm8976-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/lenovo/msm8976-common/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
+    vendor/lenovo/msm8976-common/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
+    vendor/lenovo/msm8976-common/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/lenovo/msm8976-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/lenovo/msm8976-common/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/lenovo/msm8976-common/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
+    vendor/lenovo/msm8976-common/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
+    vendor/lenovo/msm8976-common/proprietary/lib64/hw/fingerprint.vendor.default.so:system/lib64/hw/fingerprint.vendor.default.so \
     vendor/lenovo/msm8976-common/proprietary/lib64/hw/sensors.msm8952.so:system/lib64/hw/sensors.msm8952.so \
+    vendor/lenovo/msm8976-common/proprietary/lib64/libbauthserver.so:system/lib64/libbauthserver.so \
+    vendor/lenovo/msm8976-common/proprietary/lib64/libbauthtzcommon.so:system/lib64/libbauthtzcommon.so \
+    vendor/lenovo/msm8976-common/proprietary/lib64/libegis_fp_normal_sensor_test.so:system/lib64/libegis_fp_normal_sensor_test.so \
     vendor/lenovo/msm8976-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/lenovo/msm8976-common/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
-    vendor/lenovo/msm8976-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
+    vendor/lenovo/msm8976-common/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
+    vendor/lenovo/msm8976-common/proprietary/lib64/libsynaFpSensorTestNwd.so:system/lib64/libsynaFpSensorTestNwd.so \
     vendor/lenovo/msm8976-common/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
+    vendor/lenovo/msm8976-common/proprietary/lib/hw/camera.vendor.msm8952.so:system/lib/hw/camera.vendor.msm8952.so \
+    vendor/lenovo/msm8976-common/proprietary/lib/hw/fingerprint.vendor.default.so:system/lib/hw/fingerprint.vendor.default.so \
+    vendor/lenovo/msm8976-common/proprietary/lib/libalawb_algo.so:system/lib/libalawb_algo.so \
+    vendor/lenovo/msm8976-common/proprietary/lib/libbauthserver.so:system/lib/libbauthserver.so \
+    vendor/lenovo/msm8976-common/proprietary/lib/libbauthtzcommon.so:system/lib/libbauthtzcommon.so \
+    vendor/lenovo/msm8976-common/proprietary/lib/libegis_fp_normal_sensor_test.so:system/lib/libegis_fp_normal_sensor_test.so \
     vendor/lenovo/msm8976-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lenovo/msm8976-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lenovo/msm8976-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/lenovo/msm8976-common/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/lenovo/msm8976-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/lenovo/msm8976-common/proprietary/lib/libsblcv.so:system/lib/libsblcv.so \
+    vendor/lenovo/msm8976-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
+    vendor/lenovo/msm8976-common/proprietary/lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
     vendor/lenovo/msm8976-common/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lenovo/msm8976-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/lenovo/msm8976-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/lenovo/msm8976-common/proprietary/vendor/etc/yas_set.cfg:system/vendor/etc/yas_set.cfg \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
@@ -132,6 +157,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/hw/gatekeeper.msm8952.so:system/vendor/lib64/hw/gatekeeper.msm8952.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/hw/keystore.msm8952.so:system/vendor/lib64/hw/keystore.msm8952.so \
+    vendor/lenovo/msm8976-common/proprietary/vendor/lib64/hw/vulkan.msm8952.so:system/vendor/lib64/hw/vulkan.msm8952.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
@@ -146,6 +172,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
+    vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
+    vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libbt-vendor.so:system/vendor/lib64/libbt-vendor.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
@@ -166,6 +194,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
+    vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
@@ -216,6 +245,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
+    vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
+    vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libyasalgo.so:system/vendor/lib64/libyasalgo.so \
+    vendor/lenovo/msm8976-common/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
+    vendor/lenovo/msm8976-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -223,6 +256,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
+    vendor/lenovo/msm8976-common/proprietary/vendor/lib/hw/vulkan.msm8952.so:system/vendor/lib/hw/vulkan.msm8952.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
@@ -333,6 +367,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/lenovo/msm8976-common/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
@@ -357,6 +392,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libmmcamera_cac3_lib.so:system/vendor/lib/libmmcamera_cac3_lib.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libmmcamera_csidtg.so:system/vendor/lib/libmmcamera_csidtg.so \
+    vendor/lenovo/msm8976-common/proprietary/vendor/lib/libmmcamera_dbg.so:system/vendor/lib/libmmcamera_dbg.so \
+    vendor/lenovo/msm8976-common/proprietary/vendor/lib/libmmcamera_dw9807_eeprom.so:system/vendor/lib/libmmcamera_dw9807_eeprom.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:system/vendor/lib/libmmcamera_dcrf_lib.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libmmcamera_dw9761b_eeprom.so:system/vendor/lib/libmmcamera_dw9761b_eeprom.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
@@ -460,6 +497,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libtsvideoprocess.so:system/vendor/lib/libtsvideoprocess.so \
+    vendor/lenovo/msm8976-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/lenovo/msm8976-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/lenovo/msm8976-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/lenovo/msm8976-common/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
