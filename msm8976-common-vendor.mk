@@ -115,7 +115,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/lenovo/msm8976-common/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/lenovo/msm8976-common/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/lenovo/msm8976-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/lenovo/msm8976-common/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/lenovo/msm8976-common/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/lenovo/msm8976-common/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
