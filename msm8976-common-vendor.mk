@@ -145,7 +145,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lenovo/msm8976-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/lenovo/msm8976-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/lenovo/msm8976-common/proprietary/vendor/etc/yas_set.cfg:system/vendor/etc/yas_set.cfg \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
@@ -394,7 +393,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libmmcamera_csidtg.so:system/vendor/lib/libmmcamera_csidtg.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libmmcamera_dbg.so:system/vendor/lib/libmmcamera_dbg.so \
-    vendor/lenovo/msm8976-common/proprietary/vendor/lib/libmmcamera_dw9807_eeprom.so:system/vendor/lib/libmmcamera_dw9807_eeprom.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:system/vendor/lib/libmmcamera_dcrf_lib.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libmmcamera_dw9761b_eeprom.so:system/vendor/lib/libmmcamera_dw9761b_eeprom.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
