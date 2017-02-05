@@ -118,21 +118,16 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/lenovo/msm8976-common/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/lenovo/msm8976-common/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
-    vendor/lenovo/msm8976-common/proprietary/lib64/hw/fingerprint.vendor.default.so:system/lib64/hw/fingerprint.vendor.default.so \
     vendor/lenovo/msm8976-common/proprietary/lib64/hw/sensors.msm8952.so:system/lib64/hw/sensors.msm8952.so \
     vendor/lenovo/msm8976-common/proprietary/lib64/libbauthserver.so:system/lib64/libbauthserver.so \
     vendor/lenovo/msm8976-common/proprietary/lib64/libbauthtzcommon.so:system/lib64/libbauthtzcommon.so \
-    vendor/lenovo/msm8976-common/proprietary/lib64/libegis_fp_normal_sensor_test.so:system/lib64/libegis_fp_normal_sensor_test.so \
     vendor/lenovo/msm8976-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lenovo/msm8976-common/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
-    vendor/lenovo/msm8976-common/proprietary/lib64/libsynaFpSensorTestNwd.so:system/lib64/libsynaFpSensorTestNwd.so \
     vendor/lenovo/msm8976-common/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
     vendor/lenovo/msm8976-common/proprietary/lib/hw/camera.vendor.msm8952.so:system/lib/hw/camera.vendor.msm8952.so \
-    vendor/lenovo/msm8976-common/proprietary/lib/hw/fingerprint.vendor.default.so:system/lib/hw/fingerprint.vendor.default.so \
     vendor/lenovo/msm8976-common/proprietary/lib/libalawb_algo.so:system/lib/libalawb_algo.so \
     vendor/lenovo/msm8976-common/proprietary/lib/libbauthserver.so:system/lib/libbauthserver.so \
     vendor/lenovo/msm8976-common/proprietary/lib/libbauthtzcommon.so:system/lib/libbauthtzcommon.so \
-    vendor/lenovo/msm8976-common/proprietary/lib/libegis_fp_normal_sensor_test.so:system/lib/libegis_fp_normal_sensor_test.so \
     vendor/lenovo/msm8976-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lenovo/msm8976-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lenovo/msm8976-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
@@ -140,7 +135,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lenovo/msm8976-common/proprietary/lib/libsblcv.so:system/lib/libsblcv.so \
     vendor/lenovo/msm8976-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/lenovo/msm8976-common/proprietary/lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
     vendor/lenovo/msm8976-common/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lenovo/msm8976-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
