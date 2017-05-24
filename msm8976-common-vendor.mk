@@ -20,7 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/sbin/qdrbg_module.hmac:root/sbin/qdrbg_module.hmac \
     vendor/lenovo/msm8976-common/sbin/qdrbg_module.ko:root/sbin/qdrbg_module.ko \
     vendor/lenovo/msm8976-common/sbin/qfintverify:root/sbin/qfintverify \
-	vendor/lenovo/msm8976-common/sbin/qfintverify.hmac:root/sbin/qfintverify.hmac  \
+    vendor/lenovo/msm8976-common/sbin/qfintverify.hmac:root/sbin/qfintverify.hmac  \
     vendor/lenovo/msm8976-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/lenovo/msm8976-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lenovo/msm8976-common/proprietary/bin/cnd:system/bin/cnd \
@@ -142,10 +142,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lenovo/msm8976-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/lenovo/msm8976-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/lenovo/msm8976-common/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     vendor/lenovo/msm8976-common/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/lenovo/msm8976-common/proprietary/vendor/etc/msm_irqbalance_little_big.conf:system/vendor/etc/msm_irqbalance_little_big.conf \
-    vendor/lenovo/msm8976-common/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
