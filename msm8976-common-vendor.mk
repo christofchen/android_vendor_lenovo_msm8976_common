@@ -77,46 +77,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
     vendor/lenovo/msm8976-common/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/lenovo/msm8976-common/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/bdwlan30.bin:system/etc/firmware/bdwlan30.bin \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/bdwlan30_R01.bin:system/etc/firmware/bdwlan30_R01.bin \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/btfw32.tlv:system/etc/firmware/btfw32.tlv \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/btnv32.bin:system/etc/firmware/btnv32.bin \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/venus-v1.b00:system/etc/firmware/venus-v1.b00 \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/venus-v1.b01:system/etc/firmware/venus-v1.b01 \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/venus-v1.b02:system/etc/firmware/venus-v1.b02 \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/venus-v1.b03:system/etc/firmware/venus-v1.b03 \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/venus-v1.b04:system/etc/firmware/venus-v1.b04 \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/venus-v1.mbn:system/etc/firmware/venus-v1.mbn \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/venus-v1.mdt:system/etc/firmware/venus-v1.mdt \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/widevine.b04:system/etc/firmware/widevine.b04 \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/widevine.b05:system/etc/firmware/widevine.b05 \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/widevine.b06:system/etc/firmware/widevine.b06 \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     vendor/lenovo/msm8976-common/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/lenovo/msm8976-common/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/lenovo/msm8976-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
