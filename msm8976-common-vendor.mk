@@ -242,7 +242,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
- 	vendor/lenovo/msm8976-common/proprietary/vendor/lib/libchromatix_ar1335_common.so:system/vendor/lib/libchromatix_ar1335_common.so \
+    vendor/lenovo/msm8976-common/proprietary/vendor/lib/libchromatix_ar1335_common.so:system/vendor/lib/libchromatix_ar1335_common.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libchromatix_ar1335_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ar1335_cpp_ds_chromatix.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libchromatix_ar1335_cpp_hfr_120.so:system/vendor/lib/libchromatix_ar1335_cpp_hfr_120.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libchromatix_ar1335_cpp_hfr_60.so:system/vendor/lib/libchromatix_ar1335_cpp_hfr_60.so \
