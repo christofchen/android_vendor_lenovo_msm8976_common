@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/lenovo/msm8976-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lenovo/msm8976-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/lenovo/msm8976-common/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/lenovo/msm8976-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lenovo/msm8976-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/lenovo/msm8976-common/proprietary/bin/pm-service:system/bin/pm-service \
@@ -35,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lenovo/msm8976-common/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/lenovo/msm8976-common/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
-    vendor/lenovo/msm8976-common/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/lenovo/msm8976-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/lenovo/msm8976-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/lenovo/msm8976-common/proprietary/bin/hal_proxy_daemon:system/bin/hal_proxy_daemon \
@@ -93,23 +91,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/lenovo/msm8976-common/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/lenovo/msm8976-common/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini \
-    vendor/lenovo/msm8976-common/proprietary/etc/firmware/wlan/qca_cld/WCNSS_cfg.dat:system/etc/firmware/wlan/qca_cld/WCNSS_cfg.dat \
     vendor/lenovo/msm8976-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/lenovo/msm8976-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lenovo/msm8976-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/lenovo/msm8976-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lenovo/msm8976-common/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/lenovo/msm8976-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lenovo/msm8976-common/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/lenovo/msm8976-common/proprietary/lib64/hw/sensors.msm8952.so:system/lib64/hw/sensors.msm8952.so \
-    vendor/lenovo/msm8976-common/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/lenovo/msm8976-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/lenovo/msm8976-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/lenovo/msm8976-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lenovo/msm8976-common/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/lenovo/msm8976-common/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
@@ -174,7 +160,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/lenovo/msm8976-common/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
@@ -370,7 +355,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libchromatix_ov5695_a3_hfr_60.so:system/vendor/lib/libchromatix_ov5695_a3_hfr_60.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libchromatix_ov5695_avc_a3_default_preview.so:system/vendor/lib/libchromatix_ov5695_avc_a3_default_preview.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libchromatix_ov5695_avc_a3_hfr_90.so:system/vendor/lib/libchromatix_ov5695_avc_a3_hfr_90.so \
-    vendor/lenovo/msm8976-common/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/mediadrm/libprmediadrmdecrypt.so:system/vendor/lib/mediadrm/libprmediadrmdecrypt.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/mediadrm/libprmediadrmplugin.so:system/vendor/lib/mediadrm/libprmediadrmplugin.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
@@ -1065,7 +1049,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libavenhancements.so:system/vendor/lib64/libavenhancements.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
-    vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libbt-vendor.so:system/vendor/lib64/libbt-vendor.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
@@ -1147,7 +1130,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libmmipstreamnetwork.so:system/vendor/lib64/libmmipstreamnetwork.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
-    vendor/lenovo/msm8976-common/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/mediadrm/libprmediadrmplugin.so:system/vendor/lib64/mediadrm/libprmediadrmplugin.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
