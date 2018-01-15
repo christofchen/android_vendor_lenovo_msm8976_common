@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/sbin/qfintverify:root/sbin/qfintverify \
     vendor/lenovo/msm8976-common/sbin/qfintverify.hmac:root/sbin/qfintverify.hmac \
     vendor/lenovo/msm8976-common/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/lenovo/msm8976-common/proprietary/bin/cameraserver:system/bin/cameraserver \
     vendor/lenovo/msm8976-common/proprietary/bin/cnd:system/bin/cnd \
     vendor/lenovo/msm8976-common/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/lenovo/msm8976-common/proprietary/bin/dun-server:system/bin/dun-server \
