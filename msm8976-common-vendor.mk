@@ -21,17 +21,21 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/sbin/qfintverify:root/sbin/qfintverify \
     vendor/lenovo/msm8976-common/sbin/qfintverify.hmac:root/sbin/qfintverify.hmac \
     vendor/lenovo/msm8976-common/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/lenovo/msm8976-common/proprietary/bin/cameraserver:system/bin/cameraserver \
     vendor/lenovo/msm8976-common/proprietary/bin/cnd:system/bin/cnd \
     vendor/lenovo/msm8976-common/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
+    vendor/lenovo/msm8976-common/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/lenovo/msm8976-common/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/lenovo/msm8976-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lenovo/msm8976-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/lenovo/msm8976-common/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/lenovo/msm8976-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lenovo/msm8976-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/lenovo/msm8976-common/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/lenovo/msm8976-common/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/lenovo/msm8976-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lenovo/msm8976-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/lenovo/msm8976-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lenovo/msm8976-common/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/lenovo/msm8976-common/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/lenovo/msm8976-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
@@ -93,7 +97,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/lenovo/msm8976-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lenovo/msm8976-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/lenovo/msm8976-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/lenovo/msm8976-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/lenovo/msm8976-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lenovo/msm8976-common/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/lenovo/msm8976-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lenovo/msm8976-common/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/lenovo/msm8976-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lenovo/msm8976-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
@@ -159,7 +167,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libaudioparsers.so:system/vendor/lib/libaudioparsers.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
-    vendor/lenovo/msm8976-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
@@ -1048,7 +1055,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libaudioparsers.so:system/vendor/lib64/libaudioparsers.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libavenhancements.so:system/vendor/lib64/libavenhancements.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
-    vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
@@ -1315,4 +1321,5 @@ PRODUCT_PACKAGES += \
     ConnectivityExt \
     libtime_genoff \
     libts_detected_face_hal \
-    libts_face_beautify_hal
+    libts_face_beautify_hal \
+    camera.msm8952 
