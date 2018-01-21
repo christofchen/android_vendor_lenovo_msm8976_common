@@ -164,6 +164,7 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
+
 ## These must be defined as modules, because the build system searches for these modules 
 
 include $(CLEAR_VARS)
@@ -177,6 +178,9 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
+
+
+# camema blobs
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := camera.msm8952
@@ -212,4 +216,75 @@ LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 
+# gps blobs
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libgps.utils
+LOCAL_MODULE_OWNER := lenovo
+LOCAL_SRC_FILES_64 := proprietary/lib64/libgps.utils.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libgps.utils.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_SHARED_LIBRARIES := \
+    libutils \
+    libcutils \
+    liblog
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libloc_core
+LOCAL_MODULE_OWNER := lenovo
+LOCAL_SRC_FILES_64 := proprietary/lib64/libloc_core.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libloc_core.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_SHARED_LIBRARIES := \
+    libutils \
+    libcutils \
+    libgps.utils \
+    libdl
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libloc_eng
+LOCAL_MODULE_OWNER := lenovo
+LOCAL_SRC_FILES_64 := proprietary/lib64/libloc_eng.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libloc_eng.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_SHARED_LIBRARIES := \
+    libutils \
+    libcutils \
+    libdl \
+    liblog \
+    libloc_core \
+    libgps.utils
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := gps.default
+LOCAL_MODULE_OWNER := lenovo
+LOCAL_SRC_FILES_64 := proprietary/lib64/hw/gps.default.so
+LOCAL_SRC_FILES_32 := proprietary/lib/hw/gps.default.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_RELATIVE_PATH := hw
+LOCAL_SHARED_LIBRARIES := \
+    libutils \
+    libcutils \
+    liblog \
+    libloc_eng \
+    libloc_core \
+    libgps.utils \
+    libdl
+include $(BUILD_PREBUILT)
+    
 endif
