@@ -104,6 +104,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/lenovo/msm8976-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lenovo/msm8976-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
+    vendor/lenovo/msm8976-common/proprietary/lib64/libdhcpcd.so:system/lib64/libdhcpcd.so \
+    vendor/lenovo/msm8976-common/proprietary/lib64/libipanat.so:system/lib64/libipanat.so \
+    vendor/lenovo/msm8976-common/proprietary/lib64/libdashplayer.so:system/lib64/libdashplayer.so \
     vendor/lenovo/msm8976-common/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/lenovo/msm8976-common/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/lenovo/msm8976-common/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
