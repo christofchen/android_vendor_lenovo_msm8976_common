@@ -44,8 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/lenovo/msm8976-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/lenovo/msm8976-common/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/lenovo/msm8976-common/proprietary/bin/ipacm:system/bin/ipacm \
-    vendor/lenovo/msm8976-common/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/lenovo/msm8976-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lenovo/msm8976-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lenovo/msm8976-common/proprietary/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Bluetooth_cal.acdb \
@@ -105,7 +103,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/msm8976-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lenovo/msm8976-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lenovo/msm8976-common/proprietary/lib64/libdhcpcd.so:system/lib64/libdhcpcd.so \
-    vendor/lenovo/msm8976-common/proprietary/lib64/libipanat.so:system/lib64/libipanat.so \
     vendor/lenovo/msm8976-common/proprietary/lib64/libdashplayer.so:system/lib64/libdashplayer.so \
     vendor/lenovo/msm8976-common/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/lenovo/msm8976-common/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
